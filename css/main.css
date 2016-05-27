@@ -1,0 +1,117 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900);
+
+body {
+	font-family: 'Source Sans Pro',sans-serif;
+}
+.head {
+    background:
+    	linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)),
+    	url(headerback.jpg);
+    background-size:cover;
+    height:70vh;
+    padding:10px;
+    color: white;
+}
+.box-2 {
+	margin:30px;
+	position: absolute;
+	top: 200px;
+}
+.box{
+  margin: 10px;
+  width: 90%;
+  height: 70px;
+}
+.container-1{
+  width: 90%;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+}
+.container-1 input#search{
+  width: 90%;
+  height: 70px;
+  background: #ffffff;
+  border: none;
+  font-size: 15pt;
+  float: right;
+  color: #63717f;
+  padding-left: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.container-1 input#search::-webkit-input-placeholder {
+   color: #65737e;
+}
+ 
+.container-1 input#search:-moz-placeholder { /* Firefox 18- */
+   color: #65737e;  
+}
+ 
+.container-1 input#search::-moz-placeholder {  /* Firefox 19+ */
+   color: #65737e;  
+}
+ 
+.container-1 input#search:-ms-input-placeholder {  
+   color: #65737e;  
+}
+.container-1 .icon{
+  font-size:15pt;
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 17px;
+  z-index: 1;
+  color: #4f5b66;
+}
+
+.nav-container{
+	margin:50px;
+	padding:20px;
+	font-size:15pt;
+
+}
+
+.nav-tabs > li {
+    float:none;
+    display:inline-block;
+}
+
+.nav-tabs {
+    text-align:center;
+}
+.section-heading {
+	text-align: center;
+	margin:20px auto;
+	padding:5px;
+	height:80px;
+	background-color: #00cd66;
+	color:white;
+}
+
+.image img{
+	margin:20px;
+	border-radius: 0;
+	border: 0;
+	display: inline-block;
+	position: relative;
+	float: left;
+	width:100px;
+	height:70px;
+}
+
+.tab-content h3{
+	font-weight: bold;
+	font-size: 25pt;
+}
+.tab-content p, .tab-content i, .tab-content button{
+	margin:10px;
+	margin-left: 20px;
+	font-size:15pt;
+}
+.content-footer > button {
+	text-align: left;
+}
+.container {
+	border: #cdcdcd medium solid
+}
